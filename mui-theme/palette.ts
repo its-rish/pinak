@@ -107,4 +107,10 @@ const palette = {
   }
 };
 
+const PrimaryColor={
+  primay1:"#905e26",
+  primay2:"#f5ec9b",
+  primary3:"#905e26"
+}
+
 export default palette;

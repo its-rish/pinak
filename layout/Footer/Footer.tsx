@@ -8,6 +8,7 @@ import Link from "next/link";
 import { List, ListItem } from "@mui/material";
 import path from "path";
 import { useRouter } from "next/router";
+import BrandLogo from "@/ui/Icons/BrandLogo";
 
 const FooterWrap = styled(Box)`
   padding: 45px 0;
@@ -162,7 +163,7 @@ const Footer = () => {
         <Container fixed>
           <Box className="ftr-wrapper">
             <Link href="/" className="ftr-logo">
-              <Image src={assest.logo_img} alt="" width={210} height={34} />
+              <BrandLogo/>
             </Link>
 
             <List className="ftr-list">

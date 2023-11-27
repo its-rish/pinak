@@ -25,6 +25,8 @@ import Image from "next/image";
 import assest from "@/json/assest";
 import CustomButtonOutline from "@/ui/Buttons/CustomButtonOutline";
 import { Button } from "@mui/material";
+import BrandIcon from "@/ui/Icons/BrandIcon";
+import BrandLogo from "@/ui/Icons/BrandLogo";
 
 const CustomButton = dynamic(() => import("@/ui/Buttons/CustomButton"));
 
@@ -88,21 +90,14 @@ export default function Header(props: Props) {
       route: "/",
     },
     {
-      name: "Superchargers",
+      name: "Games",
       route: "/superchargers",
     },
     {
       name: "Hosts",
       route: "/hosts",
     },
-    {
-      name: "Leasing Agents",
-      route: "/leasingagents",
-    },
-    {
-      name: "EV Drivers",
-      route: "/drivers",
-    },
+   
     {
       name: "About Us",
       route: "/about",
@@ -181,12 +176,8 @@ export default function Header(props: Props) {
               <MenuIcon />
             </IconButton>
             <Link href="/" className="headerLogo">
-              <Image
-                src={assest.logo_img}
-                width={250}
-                height={38}
-                alt="Logo"
-              />
+              
+              <BrandLogo/>
             </Link>
             {isLoggedIn ? (
               <Box
