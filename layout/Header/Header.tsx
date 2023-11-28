@@ -178,6 +178,7 @@ export default function Header(props: Props) {
             <Link href="/" className="headerLogo">
               
               <BrandLogo/>
+              
             </Link>
             {isLoggedIn ? (
               <Box
