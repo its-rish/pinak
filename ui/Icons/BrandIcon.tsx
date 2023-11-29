@@ -1,10 +1,10 @@
-import { IconProps } from "@mui/material";
+import { CustomIconProps } from "@/interface/icons.interface";
 
-function BrandIcon({ ...props }: IconProps) {
+
+function BrandIcon({ IconHeight,IconWidth,IconColor }: CustomIconProps) {
   return (
     <svg
-      width="200"
-      height="80"
+    width={IconWidth || "200"} height={IconHeight || "80"}
       viewBox="0 0 375 137.86078485016918"
       className="looka-1j8o68f"
     >
@@ -22,7 +22,7 @@ function BrandIcon({ ...props }: IconProps) {
       </defs>
       <g
         id="SvgjsG1620"
-        featurekey="0LeO0L-0"
+       
         transform="matrix(9.865062128922736,0,0,9.865062128922736,-2.0231269665189853,-59.43681210643748)"
         fill="url(#SvgjsLinearGradient1624)"
       >

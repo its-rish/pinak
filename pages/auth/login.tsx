@@ -1,31 +1,12 @@
-import { primaryColors } from '@/themes/palette'
-import styled from '@emotion/styled'
-import {  Stack, Typography } from '@mui/material'
-import { Box } from '@mui/system'
-import React from 'react'
+import AuthWrapper from "@/layout/AuthWrapper/AuthWrapperComponent";
+import { Typography } from "@mui/material";
 
-
-
-const LoginWrapper=styled(Box)`
-    padding: 20px 10px;
-    .signinWrappertext{
-        h1{
-            color: ${primaryColors.primaryGray};
-            font-size: 40px;
-        }
-    }
-     
-`
-
-function login() {
+function Login() {
   return (
-    <LoginWrapper>
-        <Box className="signinWrappertext">
-            <Typography variant='h1'>SignIn</Typography>
-        </Box>
-
-    </LoginWrapper>
-  )
+    <AuthWrapper>
+      <Typography variant="body1">ok</Typography>
+    </AuthWrapper>
+  );
 }
 
-export default login
+export default Login;

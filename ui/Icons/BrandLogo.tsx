@@ -6,7 +6,7 @@ function BrandLogo() {
       width="395"
       height="149"
       viewBox="0 0 245.73759018737917 93"
-      class="looka-1j8o68f"
+      className="looka-1j8o68f"
     >
       <defs id="SvgjsDefs2066">
         <linearGradient id="SvgjsLinearGradient2077">
@@ -33,7 +33,7 @@ function BrandLogo() {
       
       <g
         id="SvgjsG2069"
-        featurekey="nameLeftFeature-0"
+        
         transform="matrix(1.1959098324124149,0,0,1.1959098324124149,120.62663005592167,17.14234762521421)"
         fill="url(#SvgjsLinearGradient2081)"
       >
@@ -41,7 +41,7 @@ function BrandLogo() {
       </g>
       <g
         id="SvgjsG2070"
-        featurekey="inlineSymbolFeature-0"
+        
         transform="matrix(0.45,0,0,0.45,177.5,24.5)"
         fill="url(#SvgjsLinearGradient2085)"
       >
@@ -52,7 +52,7 @@ function BrandLogo() {
       </g>
       <g
         id="SvgjsG2071"
-        featurekey="nameRightFeature-0"
+       
         transform="matrix(1.1999998474121287,0,0,1.1999998474121287,220.5870453088067,17.00000610351485)"
         fill="url(#SvgjsLinearGradient2089)"
       >

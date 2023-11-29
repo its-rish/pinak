@@ -15,7 +15,7 @@ const CustomNextImage = (props: ImageProps) => {
       {...rest}
       src={imgSrc}
       onError={() => {
-        setImgSrc(assest.noimage);
+        setImgSrc(assest.notfound);
       }}
     />
   );
