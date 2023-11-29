@@ -1,12 +1,10 @@
-import AuthWrapper from "@/layout/AuthWrapper/AuthWrapperComponent";
-import { Typography } from "@mui/material";
+import AuthWrapper from '@/layout/AuthWrapper/AuthWrapperComponent'
+import React from 'react'
 
-function Login() {
+function login() {
   return (
-    <AuthWrapper>
-      <Typography variant="body1">ok</Typography>
-    </AuthWrapper>
-  );
+    <AuthWrapper/>
+  )
 }
 
-export default Login;
+export default login
