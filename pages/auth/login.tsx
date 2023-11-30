@@ -1,9 +1,11 @@
 import AuthWrapper from '@/layout/AuthWrapper/AuthWrapperComponent'
-import React from 'react'
+import Typography from '@mui/material/Typography'
 
 function login() {
   return (
-    <AuthWrapper/>
+    <AuthWrapper>
+    <Typography variant="h1">Hello</Typography>
+  </AuthWrapper>
   )
 }
 
