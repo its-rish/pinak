@@ -3,27 +3,34 @@ import styled from "@emotion/styled";
 import { Container, Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import Image from "next/image";
+
 export const AuthWrapperStyled = styled(Box)`
-  background: var(--white);
-  height: 120vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .authLeft {
-    display: flex;
+  height: 100vh;
+  .authSectionWrap {
     align-items: center;
-    justify-content: center;
     height: 100%;
-    img {
-      width: 70%;
+    .authLeft {
+      figure {
+        width: 400px;
+        height: auto;
+        line-height: 0;
+        font-size: 0;
+        margin-left: auto;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .authRight {
     }
   }
-  .authRight {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    flex-direction: column;
+  .auth_Title {
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 1.5;
+    margin-bottom: 5px;
   }
 `;
 export interface AuthWrpperPorps {
@@ -33,18 +40,25 @@ function AuthWrapperComponent({ children }: AuthWrpperPorps) {
   return (
     <AuthWrapperStyled>
       <Container fixed>
-        <Grid container spacing={10}>
-          <Grid lg={7} xs={12}>
+        <Grid
+          container
+          columnSpacing={4}
+          rowSpacing={3}
+          className="authSectionWrap"
+        >
+          <Grid item md={6} xs={12}>
             <Box className="authLeft">
-              <Image
-              width={300}
-              height={500}
-                src={assest.phone}
-                alt="phone"
-              />
+              <figure>
+                <Image
+                  width={384}
+                  height={524}
+                  src={assest.phone}
+                  alt="phone"
+                />
+              </figure>
             </Box>
           </Grid>
-          <Grid lg={5} xs={12}>
+          <Grid item md={6} xs={12}>
             <Box className="authRight">{children}</Box>
           </Grid>
         </Grid>
@@ -54,8 +68,3 @@ function AuthWrapperComponent({ children }: AuthWrpperPorps) {
 }
 
 export default AuthWrapperComponent;
-
-
-
-
-
