@@ -7,10 +7,6 @@ const RegisterPage = () => {
   return (
     <AuthWrapperComponent>
       <Container>
-        {/* <CostomInput placeholder="Enter Email"  helperText="abc@email.com" type="email"/>
-                <CostomInput placeholder="First name" helperText="abc" type="text"/>
-                <CostomInput placeholder="Last name" helperText="cba" type="text"/>
-                <CostomInput placeholder="Password" helperText="*******" type="password"/> */}
         <form>
           <Grid container spacing={2}>
             <Grid item xs={6}>
@@ -21,20 +17,20 @@ const RegisterPage = () => {
             </Grid>
             <Grid item xs={6}>
               <Typography className="auth_Title" variant="h4">
-                First Name
+                Last Name
               </Typography>
               <InputFieldCommon placeholder="Last Name" type="text" />
             </Grid>
             <Grid item xs={12}>
               <Typography className="auth_Title" variant="h4">
-                First Name
+                 Email
               </Typography>
               <InputFieldCommon placeholder="Enter Email" type="email" />
             </Grid>
 
             <Grid item xs={12}>
               <Typography className="auth_Title" variant="h4">
-                First Name
+                Password
               </Typography>
               <InputFieldCommon
                 placeholder="Password"
@@ -44,7 +40,7 @@ const RegisterPage = () => {
             </Grid>
             <Grid item xs={12}>
               <Typography className="auth_Title" variant="h4">
-                First Name
+                Confirm Password
               </Typography>
               <InputFieldCommon
                 placeholder="Confirm Password"
@@ -53,8 +49,8 @@ const RegisterPage = () => {
               />
             </Grid>
             <Grid item xs={12}>
-              <CustomButton type="submit" color="primary">
-                <Typography variant="caption">Submit</Typography>
+              <CustomButton type="submit" color="primary" fullWidth>
+                <Typography variant="caption">Register</Typography>
               </CustomButton>
             </Grid>
           </Grid>
