@@ -47,6 +47,7 @@ export const primaryColors = {
   colorDC276A: "#DC276A",
   colorAEAEAE: "#AEAEAE",
   colorF5F5F5: "#F5F5F5",
+  color808080:"#808080"
 
   // borderprimary:"#DBE0E8",
  

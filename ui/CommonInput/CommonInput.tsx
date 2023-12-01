@@ -26,7 +26,7 @@ const InputWrap = styled(TextField as any)`
     border: 1px solid ${primaryColors?.border_primary};
     background: ${primaryColors?.white};
     /* box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.06); */
-    min-width: 300px;
+    /* min-width: 300px; */
     @media (max-width: 600px) {
       padding: 5px 10px;
     }
@@ -54,7 +54,7 @@ const InputWrap = styled(TextField as any)`
       font-weight: 400;
       color: ${primaryColors?.textPrimaryColor};
       &::placeholder {
-        color: ${primaryColors?.textPrimaryColor};
+        color: ${primaryColors?.color808080};
         opacity: 1;
       }
       &:focus {
@@ -99,7 +99,7 @@ const InputWrap = styled(TextField as any)`
       height: 39px;
       font-size: 16px;
       &::placeholder {
-        color: ${primaryColors?.textPrimaryColor};
+        color: ${primaryColors?.color808080};
         opacity: 1;
       }
     }
@@ -163,7 +163,7 @@ const InputWrap = styled(TextField as any)`
       border: 0;
       padding-left: 0;
       &::placeholder {
-        color: ${primaryColors?.white};
+        color: ${primaryColors?.color808080};
         font-size: 16px;
         font-weight: 400;
         opacity: 1;
@@ -259,7 +259,7 @@ const InputWrap = styled(TextField as any)`
         textarea {
           margin-top: 10px;
           &::placeholder {
-            color: ${primaryColors?.textPrimaryColor};
+            color: ${primaryColors?.color808080};
             font-size: 16px;
             font-weight: 400;
             opacity: 1;
