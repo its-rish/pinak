@@ -8,7 +8,7 @@ export const AuthWrapperStyled = styled(Box)`
   height: 100vh;
   .authSectionWrap {
     align-items: center;
-    height: 100%;
+    height: 100vh;
     .authLeft {
       figure {
         width: 400px;
@@ -31,6 +31,11 @@ export const AuthWrapperStyled = styled(Box)`
     font-weight: 600px;
     line-height: 1.5;
     margin-bottom: 5px;
+  }
+  .otpWrapper{
+    max-width: 380px;
+    width: 100%;
+    margin-left: auto;
   }
 `;
 export interface AuthWrpperPorps {
