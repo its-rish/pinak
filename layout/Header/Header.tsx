@@ -180,7 +180,7 @@ export default function Header(props: Props) {
               <BrandLogo/>
               
             </Link>
-            {isLoggedIn ? (
+            {/* {isLoggedIn ? (
               <Box
                 sx={{ display: { xs: "none", sm: "block" } }}
                 className="navbar"
@@ -197,7 +197,7 @@ export default function Header(props: Props) {
                   <span>{userData?.email}</span>
                 </CustomButton>
               </Box>
-            ) : (
+            )  */}
               <Box
                 sx={{ display: { xs: "none", sm: "block" } }}
                 className="navbar"
@@ -214,7 +214,7 @@ export default function Header(props: Props) {
                   </Link>
                 ))}
               </Box>
-            )}
+           
             <Box className="hdr_rgt">
     
               <CustomButton type="button">
