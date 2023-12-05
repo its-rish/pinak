@@ -6,7 +6,7 @@ import { Container, Grid, Typography } from "@mui/material";
 function login() {
   return (
     <AuthWrapper>
-    <Container>
+   
         <form>
           <Grid container spacing={2}>
             
@@ -35,7 +35,7 @@ function login() {
             </Grid>
           </Grid>
         </form>
-      </Container>
+      
   </AuthWrapper>
   )
 }

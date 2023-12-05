@@ -6,7 +6,7 @@ import { Container, Grid, Typography } from "@mui/material";
 const RegisterPage = () => {
   return (
     <AuthWrapperComponent>
-      <Container>
+      
         <form>
           <Grid container spacing={2}>
             <Grid item xs={6}>
@@ -55,7 +55,7 @@ const RegisterPage = () => {
             </Grid>
           </Grid>
         </form>
-      </Container>
+      
     </AuthWrapperComponent>
   );
 };

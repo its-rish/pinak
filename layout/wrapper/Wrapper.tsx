@@ -38,7 +38,7 @@ const Wrapper = (props: wrapperProps) => {
 
   routerText.shift();
   const favText = routerText.join("").toString().toUpperCase();
-  const projectName = "abc";
+  const projectName = "Pinak";
 
   useOnlineStatus();
 
